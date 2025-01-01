@@ -1,0 +1,21 @@
+.hover-effect {
+  @apply flex items-center gap-6 text-[1.5rem] text-gray-300 hover:bg-gray-900 hover:text-white pr-0 pl-7 py-3 cursor-pointer rounded-full max-[900px]:hover:bg-[black] max-[900px]:gap-3 max-[900px]:pl-0 max-[900px]:pr-0 max-[900px]:text-[1.3rem] max-md:justify-center max-[500px]:gap-2;
+}
+.icons{
+  @apply max-md:text-3xl max-md:pt-2 max-[500px]:text-[4vw];
+}
+.proname{
+  @apply max-md:hidden
+}
+.post-btn {
+  @apply mt-6 py-3 w-60 bg-white text-black rounded-full cursor-pointer text-[1.3rem] max-[900px]:mt-4 max-[900px]:w-32 max-[900px]:text-xl max-md:hidden;
+}
+.profile-section {
+  @apply flex items-center mt-4 cursor-pointer w-[85%] p-[0.5vw] hover:bg-gray-900 hover:text-white rounded-full max-[900px]:text-sm max-[900px]:w-full max-md:h-20 max-md:m-0 max-md:hover:bg-transparent justify-center;
+} 
+.link-hide{
+  @apply max-md:hidden
+}
+.set{
+    @apply max-[500px]:fixed max-[500px]:bottom-0 max-[500px]:w-[34rem] max-[500px]:bg-black;
+}

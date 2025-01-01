@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Chrip;
+    src: url('../../assets/Fonts/Chirp-Regular.ttf');
+}
+.premium-border{
+    @apply border-[#585858] border-[0.2px] rounded-xl;
+}
+.cgray1{
+    @apply text-[#ffffffd8] font-bold cursor-pointer max-lg:text-sm;
+}
+.cgray2{
+    @apply text-[#ffffff79] font-extralight cursor-pointer tracking-wider text-sm max-lg:text-[10px];
+}
+ .search-container{
+   @apply max-xl:p-2
+} 
+

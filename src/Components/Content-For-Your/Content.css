@@ -1,0 +1,25 @@
+.for-hover {
+  @apply text-lg font-bold text-gray-300 hover:bg-[#0f0f0f] hover:text-white cursor-pointer w-[50%] p-4;
+}
+.post-icon {
+  @apply hover:bg-[#42b3ff3d]  rounded-full p-2 text-[#42b3ff] cursor-pointer text-xl transition-all duration-500;
+}
+.border-color {
+  @apply border-[#585858] border-b-[0.2px] border-x-[0.2px];
+}
+.ss-icon {
+  @apply px-[10px] hover:bg-[#42b3ff2d]  rounded-full p-2 hover:text-[#42b3ffda] transition-all duration-500 cursor-pointer  text-lg;
+}
+.font-gilroy {
+  font-family: "gilroy";
+  font-weight: 600;
+}
+.icon-hover {
+  @apply transition-all duration-500 rounded-full p-2 cursor-pointer text-xl;
+}
+.text-hover {
+  @apply text-sm cursor-pointer;
+}
+.span-hover {
+  @apply flex items-center;
+}
